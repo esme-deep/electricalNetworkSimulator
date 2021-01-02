@@ -89,7 +89,7 @@ ElementaryNetwork.GetCO2_EnergyPrice(market);
 en faisant cela le réseau aura le prix du combustible et de l'électricité pour chaque fournisseur/consommateur.
 
 ## La méteo 
-l'énergie des centrales solaires et éoliennes depends de la méteo donc si on souhaites les associer à une infrastructure il faut appeler la méthode setEnergyBasedOn(Meteo : meteo)  : 
+l'énergie des centrales solaires et éoliennes depend de la méteo donc si on souhaites les associer à une infrastructure il faut appeler la méthode setEnergyBasedOn(Meteo : meteo)  : 
  ```cs
 SolarPowerPlant Solaire1 = new SolarPowerPlant("Solaire1", 0);
 Solaire1.SetEnergyBasedOn(belgiumState);
