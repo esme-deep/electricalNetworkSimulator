@@ -1,11 +1,11 @@
 # Simulateur de réseaux électrique - Documentation 
-                          by : Chaîmae Mottaki 18231 
-                          & Asmae Malouli 18185
+                                                                                      by : Chaîmae Mottaki 18231 
+                                                                                           & Asmae Malouli 18185
 
 ### Bienvenue dans ce simulateur de réseaux électriques. Cette documentation vous permettra de naviguer au mieux à travers le code.
 
 ## Comment créer un réseau :
-Afin de créer un grand réseau "GreatNetwork" ou on trouve des groupes de centrales qui fournissent de l'énergie à des groupes de consommateurs, on commence par créer les petits groupes qu'on appelle "network"; donc chaque petit réseau aura un noeud de distribution et un noeud de concentration qui sont reliés par une ligne => c'est cette ligne qui fera "l'dentifiant" qu'on appelle "Node" de chaque réseau et comme elle est unique et propre au fournisseurs/consommateurs elle identifira aussi les noeuds implicitement.
+Afin de créer un grand réseau "GreatNetwork" ou on trouve des groupes de centrales qui fournissent de l'énergie à des groupes de consommateurs, on commence par créer les petits groupes qu'on appelle "network"; donc chaque petit réseau aura un noeud de distribution et un noeud de concentration qui sont reliés par une ligne => c'est cette ligne qui fera "l'dentifiant" qu'on appelle "Node" de chaque réseau et comme elle est unique et propre aux fournisseurs/consommateurs elle identifira aussi les noeuds implicitement.
 
 
 ## Ajouter une centrale
